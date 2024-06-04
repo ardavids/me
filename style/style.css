@@ -51,6 +51,10 @@ footer div img {
   width: 25px;
 }
 
+.about .row {
+  gap: 1.5rem;
+}
+
 .card {
   background-color: #f8f4ea;
 }
@@ -89,7 +93,17 @@ footer div img {
     padding: 0;
   }
 
+  .about .row {
+    display: flex;
+    flex-direction: column;
+  }
+
   .skill div img {
     width: 3.5rem;
+  }
+
+  .project .row {
+    display: flex;
+    flex-direction: column;
   }
 }
