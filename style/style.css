@@ -105,4 +105,8 @@ footer div img {
     display: flex;
     flex-direction: column;
   }
+
+  .certificate img {
+    width: 300px;
+  }
 }
